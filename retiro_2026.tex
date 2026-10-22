@@ -8,7 +8,7 @@
 \usepackage{booktabs}
 \usepackage{geometry}
 \usepackage{graphicx}
-\usepackage[sectionbib]{natbib}
+\usepackage{natbib}
 \usepackage[utf8]{inputenc}
 \usepackage{multirow}
 \usepackage[T1]{fontenc}
@@ -259,7 +259,7 @@
 	
 	\vspace{0.3cm}
 	
-	\textcolor{red}{\bf Más del 60\% de los neuropsicólogos latinoamericanos reportan falta de normas locales.}
+	\textcolor{red}{\bf Más del 60\% de los neuropsicólogos latinoamericanos reportan falta de normas locales \citep{Arango-Lasprilla04072017}.}
 	
 \end{frame}
 
@@ -292,7 +292,7 @@
 \begin{frame}{El Test de Aprendizaje y Memoria Verbal (TAMV-I)}
 	
 	\begin{itemize}
-		\item Se presentan datos normativos para el TAMV-I que fue diseñado para población hispanohablante.
+		\item El TAMV-I fue desarrollado para población hispanohablante y cuenta con datos normativos para nueve países latinoamericanos y España \citep{rivera2017}.
 		\vspace{7pt}
 		\item Edad: 6 a 17 años
 		\vspace{7pt}
@@ -569,16 +569,16 @@
 	\end{columns}
 \end{frame}
 
-\begin{frame}{Participantes III}
-	\vspace{-0.4cm}
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.65\linewidth]{journal.pone.0341237.t001}
-		\caption{}
-		\label{fig:journal}
-	\end{figure}
-	
-\end{frame}
+%\begin{frame}{Participantes III}
+%	\vspace{-0.4cm}
+%	\begin{figure}
+%		\centering
+%		\includegraphics[width=0.65\linewidth]{journal.pone.0341237.t001}
+%		\caption{}
+%		\label{fig:journal}
+%	\end{figure}
+%	
+%\end{frame}
 
 \subsection{Instrumento}
 
@@ -782,6 +782,8 @@
 		\vspace{10pt}
 		\item La estimación se realiza usando la máxima verosimilitud restringida (REML).
 			\vspace{10pt}
+			\item El costo computacional proviene de REML debido a la inversión/factorización de matrices dispersas (\textit{sparse}), con una complejidad de $\mathcal{O}(n^{1.5})$ a $\mathcal{O}(n^3)$.
+			\vspace{10pt}
 			\item El mejor modelo se determina secuencialmente usando el BIC.
 	\end{itemize}
 
@@ -797,14 +799,26 @@
 	
 \end{frame}
 
+\begin{frame}{Disponibilidad de los datos}
+	\centering
+	\textbf{Datos disponibles en Zenodo}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.4\linewidth]{datos}
+		\label{fig:datos}
+	\end{figure}
+	
+\end{frame}
+
 \section{Resultados}
 
 \subsection{Parámetros de los ítems y puntuaciones de las habilidades}
 
 \begin{frame}{Parámetros de los ítems y puntuaciones de las habilidades I}
+	\vspace{-1cm}
 	\begin{figure}
 		\centering
-		\includegraphics[width=\linewidth]{journal.pone.0341237.t002}
+		\includegraphics[width=1.05\linewidth]{journal.pone.0341237.t002}
 		\label{fig:journalh}
 	\end{figure}
 \end{frame}
@@ -833,7 +847,7 @@
 	\vspace{-0.5cm}
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.6\linewidth]{journal.pone.0341237.g003}
+		\includegraphics[width=0.61\linewidth]{journal.pone.0341237.g003}
 		\caption{}
 		\label{fig:journalf}
 	\end{figure}
@@ -843,11 +857,41 @@
 \subsection{Aplicación de datos normativos}
 
 \begin{frame}{Aplicación de datos normativos}
-	 \begin{itemize}
-	 	\item Calculadora de datos normativos: \href{https://diegorivera.shinyapps.io/calculator_tamvi_tri/}{Acceder aquí}
-	 	\vspace{12pt}
-	 	\item Todos los códigos reproducibles se encuentran en: \href{https://github.com/diegoriveraps/tamvi-irt-lmm-scripts}{https://github.com/diegoriveraps/tamvi-irt-lmm-scripts}
-	  \end{itemize} 
+		\vspace{-0.5cm}
+		\begin{columns}[T]
+			
+			\begin{column}{0.5\textwidth}
+				\centering
+				\textbf{Calculadora de datos normativos}
+				
+%				\vspace{0.1cm}
+				
+				\begin{figure}
+					\centering
+					\includegraphics[width=0.8\linewidth]{calculadora}
+					\label{fig:calculadora}
+				\end{figure}
+				
+				
+			\end{column}
+			
+			\begin{column}{0.5\textwidth}
+				\centering
+				\textbf{Códigos reproducibles}
+				
+%				\vspace{0.1cm}
+				
+				\begin{figure}
+					\centering
+					\includegraphics[width=0.8\linewidth]{reproducible}
+					\label{fig:reproducible}
+				\end{figure}
+				
+				
+			\end{column}
+			
+		\end{columns}
+		
   \end{frame}
 
 \section{Conclusiones}
@@ -855,38 +899,33 @@
 \begin{frame}{Conclusiones}
 	
 	\begin{enumerate}
-		\item \textbf{Normas robustas para el TAMV-I}
-		\begin{itemize}
-			\item Se desarrollaron datos normativos utilizando IRT y modelos lineales mixtos (LMM).
-		\end{itemize}
+		\item Se desarrollaron datos normativos utilizando IRT y modelos lineales mixtos (LMM).
 		
-		\vspace{0.2cm}
+		\vspace{0.6cm}
 		
-		\item \textbf{Superioridad del modelo 2PL}
-		\begin{itemize}
-			\item El modelo 2PL mostró un mejor ajuste que el modelo de Rasch según el BIC.
-		\end{itemize}
+		\item El modelo 2PL mostró un mejor ajuste que el modelo de Rasch según la razón de verosimilitud. El BIC favorece a 2PL solo en los ensayos 1–3, en los ensayos 4, 5 y 6 Rasch tiene menor BIC.
 		
-		\vspace{0.2cm}
+		\vspace{0.6cm}
 		
-		\item \textbf{Importancia de las variables demográficas}
-		\begin{itemize}
-			\item Edad, sexo, escolaridad parental y país influyen significativamente en el desempeño.
-		\end{itemize}
+		\item Edad, Ensayos 2-6, $\ln MPE$, Edad $\times$ Ensayos, Edad$^2$ $\times$ Ensayos y País $\times$ Ensayos, sobre España  influyen significativamente en el desempeño.
 		
-		\vspace{0.2cm}
+		\vspace{0.6cm}
 		
-		\item \textbf{Aplicación clínica}
-		\begin{itemize}
-			\item Se desarrolló una herramienta en línea que facilita el cálculo e interpretación de puntuaciones normativas.
-		\end{itemize}
+		\item Se desarrolló una herramienta en línea que facilita el cálculo e interpretación de puntuaciones normativas.
 		
-		\item \textbf{Disponibilidad de los datos}
-		\begin{itemize}
-			\item Los datos están disponibles en: \href{https://zenodo.org/records/18176818}{https://zenodo.org/records/18176818}
-		\end{itemize}
+%		\vspace{0.2cm}
+%		
+%		\item Los datos están disponibles en: \href{https://zenodo.org/records/18176818}{https://zenodo.org/records/18176818}
 		
 	\end{enumerate}
+\end{frame}
+
+\section{Referencias}
+
+\begin{frame}[allowframebreaks]{Referencias}
+	\scriptsize
+	\bibliographystyle{apalike}
+	\bibliography{biblio_intro}
 \end{frame}
 
 \begin{frame}

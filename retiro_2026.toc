@@ -2,11 +2,12 @@
 \beamer@sectionintoc {1}{Introducción}{4}{0}{1}
 \beamer@sectionintoc {2}{Métodos}{12}{0}{2}
 \beamer@subsectionintoc {2}{1}{Participantes}{12}{0}{2}
-\beamer@subsectionintoc {2}{2}{Instrumento}{15}{0}{2}
-\beamer@subsectionintoc {2}{3}{Procedimiento}{16}{0}{2}
-\beamer@subsectionintoc {2}{4}{Análisis estadístico}{17}{0}{2}
+\beamer@subsectionintoc {2}{2}{Instrumento}{14}{0}{2}
+\beamer@subsectionintoc {2}{3}{Procedimiento}{15}{0}{2}
+\beamer@subsectionintoc {2}{4}{Análisis estadístico}{16}{0}{2}
 \beamer@sectionintoc {3}{Resultados}{24}{0}{3}
 \beamer@subsectionintoc {3}{1}{Parámetros de los ítems y puntuaciones de las habilidades}{24}{0}{3}
 \beamer@subsectionintoc {3}{2}{Efecto de las variables demográficas en la habilidad}{26}{0}{3}
 \beamer@subsectionintoc {3}{3}{Aplicación de datos normativos}{28}{0}{3}
 \beamer@sectionintoc {4}{Conclusiones}{29}{0}{4}
+\beamer@sectionintoc {5}{Referencias}{30}{0}{5}

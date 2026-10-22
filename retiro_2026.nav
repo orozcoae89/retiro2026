@@ -32,34 +32,34 @@
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\slideentry {2}{1}{2}{13/13}{Participantes}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\slideentry {2}{1}{3}{14/14}{Participantes}{0}}
+\headcommand {\beamer@subsectionpages {12}{13}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{14}{Instrumento}}
+\headcommand {\slideentry {2}{2}{1}{14/14}{Instrumento}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@subsectionpages {12}{14}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{15}{Instrumento}}
-\headcommand {\slideentry {2}{2}{1}{15/15}{Instrumento}{0}}
+\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{15}{Procedimiento}}
+\headcommand {\slideentry {2}{3}{1}{15/15}{Procedimiento}{0}}
 \headcommand {\beamer@framepages {15}{15}}
 \headcommand {\beamer@subsectionpages {15}{15}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{16}{Procedimiento}}
-\headcommand {\slideentry {2}{3}{1}{16/16}{Procedimiento}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{16}{Análisis estadístico}}
+\headcommand {\slideentry {2}{4}{1}{16/16}{Análisis estadístico}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\beamer@subsectionpages {16}{16}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{17}{Análisis estadístico}}
-\headcommand {\slideentry {2}{4}{1}{17/17}{Análisis estadístico}{0}}
+\headcommand {\slideentry {2}{4}{2}{17/17}{Análisis estadístico}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {2}{4}{2}{18/18}{Análisis estadístico}{0}}
+\headcommand {\slideentry {2}{4}{3}{18/18}{Análisis estadístico}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {2}{4}{3}{19/19}{Análisis estadístico}{0}}
+\headcommand {\slideentry {2}{4}{4}{19/19}{Análisis estadístico}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {2}{4}{4}{20/20}{Análisis estadístico}{0}}
+\headcommand {\slideentry {2}{4}{5}{20/20}{Análisis estadístico}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {2}{4}{5}{21/21}{Análisis estadístico}{0}}
+\headcommand {\slideentry {2}{4}{6}{21/21}{Análisis estadístico}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {2}{4}{6}{22/22}{Análisis estadístico}{0}}
+\headcommand {\slideentry {2}{4}{7}{22/22}{Análisis estadístico}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {2}{4}{7}{23/23}{Análisis estadístico}{0}}
+\headcommand {\slideentry {2}{4}{8}{23/23}{Análisis estadístico}{0}}
 \headcommand {\beamer@framepages {23}{23}}
 \headcommand {\beamer@sectionpages {12}{23}}
-\headcommand {\beamer@subsectionpages {17}{23}}
+\headcommand {\beamer@subsectionpages {16}{23}}
 \headcommand {\sectionentry {3}{Resultados}{24}{Resultados}{0}}
 \headcommand {\beamer@subsectionpages {24}{23}}
 \headcommand {\beamer@subsectionentry {0}{3}{1}{24}{Parámetros de los ítems y puntuaciones de las habilidades}}
@@ -82,12 +82,20 @@
 \headcommand {\sectionentry {4}{Conclusiones}{29}{Conclusiones}{0}}
 \headcommand {\slideentry {4}{0}{1}{29/29}{}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {4}{0}{2}{30/30}{}{0}}
+\headcommand {\beamer@sectionpages {29}{29}}
+\headcommand {\beamer@subsectionpages {29}{29}}
+\headcommand {\sectionentry {5}{Referencias}{30}{Referencias}{0}}
+\headcommand {\beamer@sectionpages {30}{29}}
+\headcommand {\beamer@subsectionpages {30}{29}}
+\headcommand {\sectionentry {6}{Referencias}{30}{Referencias}{0}}
+\headcommand {\slideentry {6}{0}{0}{30/30}{}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {4}{0}{3}{31/31}{}{0}}
+\headcommand {\slideentry {6}{0}{1}{31/31}{}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\beamer@partpages {1}{31}}
-\headcommand {\beamer@subsectionpages {29}{31}}
-\headcommand {\beamer@sectionpages {29}{31}}
-\headcommand {\beamer@documentpages {31}}
-\headcommand {\gdef \inserttotalframenumber {31}}
+\headcommand {\slideentry {6}{0}{2}{32/32}{}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\beamer@partpages {1}{32}}
+\headcommand {\beamer@subsectionpages {30}{32}}
+\headcommand {\beamer@sectionpages {30}{32}}
+\headcommand {\beamer@documentpages {32}}
+\headcommand {\gdef \inserttotalframenumber {32}}
